@@ -1,31 +1,37 @@
-import React from 'react'
-import Navbar from './assets/navbar'
-import Info from './assets/Info'
-import Hero from './assets/Hero'
-import Content from './assets/Content'
-import Statistics from './assets/Statistics'
-import About from './assets/About'
-import Footer from './assets/Footer'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from './assets/navbar';
+import Info from './assets/Info';
+import Hero from './assets/Hero';
+import Content from './assets/Content';
+import Statistics from './assets/Statistics';
+import About from './assets/About';
+import Footer from './assets/Footer';
+import Signin from './assets/Signin';
 
 const App = () => {
   return (
-    <main >
-       <Info/>
-      <Navbar/>
-      <Hero/>
-      <Content/>
-      <div>
-      <Statistics/>
-      </div>
-      <div>
-        <About/>
-      </div>
-      <div>
-        <Footer/>
-      </div>
-    
-    </main>
-  )
-}
+    <Router>
+       
+      <Routes>
+       
+        <Route path="/" element={
+          <>
+            <Info />
+            <Navbar />
+            <Hero />
+            <Content />
+            <Statistics />
+            <About />
+            <Footer />
+          </>
+        } />
 
-export default App
+       
+        <Route path="/signin" element={<Signin />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
