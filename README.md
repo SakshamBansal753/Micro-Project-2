@@ -23,9 +23,8 @@ A smart web-based application that helps users manage and remember their medicat
 
 ---
 
-## 📸 Screenshots
 
-![Uploading image.png…]()
+
 
 
 ## 🧑‍💻 Getting Started
@@ -59,4 +58,8 @@ npm run dev
 
 ```bash
 git clone https://github.com/SakshamBansal753/Micro-Project-2.git
+```
+## 📸 Screenshots
+<img src="https://github.com/SakshamBansal753/Micro-Project-2/blob/main/Med.png"/>
+
 
