@@ -25,18 +25,14 @@ A smart web-based application that helps users manage and remember their medicat
 
 ## 📸 Screenshots
 
-> Include screenshots or a demo GIF here for better presentation.
+![Uploading image.png…]()
 
----
 
 ## 🧑‍💻 Getting Started
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/SakshamBansal753/Micro-Project-2.git
 
-**2.Setup Frontend**
+**Setup Frontend**
 cd frontend
 npm install
 npm run dev
@@ -59,4 +55,8 @@ npm run dev
   - [Flask](https://flask.palletsprojects.com/)
   - [Django](https://docs.djangoproject.com/)
   - [FastAPI](https://fastapi.tiangolo.com/)
+### Clone the Repository
+
+```bash
+git clone https://github.com/SakshamBansal753/Micro-Project-2.git
 
