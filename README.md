@@ -65,5 +65,7 @@ git clone https://github.com/SakshamBansal753/Micro-Project-2.git
 ```
 ## 📸 Screenshots
 <img src="https://github.com/SakshamBansal753/Micro-Project-2/blob/main/Med.png"/>
+<img src="https://github.com/SakshamBansal753/Micro-Project-2/blob/main/24hr.png"/>
+<img src="https://github.com/SakshamBansal753/Micro-Project-2/blob/main/Entry.png"/>
 
 
