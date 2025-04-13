@@ -36,9 +36,11 @@ A smart web-based application that helps users manage and remember their medicat
 
 
 **Setup Frontend**
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 ## 📬 Future Enhancements
 
